@@ -2874,18 +2874,18 @@ exports[`VDataTable.ts should hide group button when column is not groupable 1`]
                   <div role="button"
                        aria-haspopup="listbox"
                        aria-expanded="false"
-                       aria-owns="list-747"
+                       aria-owns="list-731"
                        class="v-input__slot"
                   >
                     <div class="v-select__slot">
-                      <label for="input-747"
+                      <label for="input-731"
                              class="v-label theme--light"
                              style="left: 0px; position: absolute;"
                       >
                         Sort by
                       </label>
                       <div class="v-select__selections">
-                        <input id="input-747"
+                        <input id="input-731"
                                readonly="readonly"
                                type="text"
                                aria-readonly="false"
@@ -3424,7 +3424,7 @@ exports[`VDataTable.ts should hide group button when column is not groupable 1`]
           <div role="button"
                aria-haspopup="listbox"
                aria-expanded="false"
-               aria-owns="list-751"
+               aria-owns="list-735"
                class="v-input__slot"
           >
             <div class="v-select__slot">
@@ -3433,7 +3433,7 @@ exports[`VDataTable.ts should hide group button when column is not groupable 1`]
                   10
                 </div>
                 <input aria-label="Rows per page:"
-                       id="input-751"
+                       id="input-735"
                        readonly="readonly"
                        type="text"
                        aria-readonly="false"
@@ -5283,6 +5283,356 @@ exports[`VDataTable.ts should not search column with filterable set to false and
               Dessert (100g serving)
             </div>
             <div class="v-data-table__mobile-row__cell">
+              Frozen Yogurt
+            </div>
+          </td>
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Calories
+            </div>
+            <div class="v-data-table__mobile-row__cell">
+              159
+            </div>
+          </td>
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Fat (g)
+            </div>
+            <div class="v-data-table__mobile-row__cell">
+              6
+            </div>
+          </td>
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Carbs (g)
+            </div>
+            <div class="v-data-table__mobile-row__cell">
+              24
+            </div>
+          </td>
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Protein (g)
+            </div>
+            <div class="v-data-table__mobile-row__cell">
+              4
+            </div>
+          </td>
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Iron (%)
+            </div>
+            <div class="v-data-table__mobile-row__cell">
+              1%
+            </div>
+          </td>
+        </tr>
+        <tr class="v-data-table__mobile-table-row">
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Dessert (100g serving)
+            </div>
+            <div class="v-data-table__mobile-row__cell">
+              Ice cream sandwich
+            </div>
+          </td>
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Calories
+            </div>
+            <div class="v-data-table__mobile-row__cell">
+              237
+            </div>
+          </td>
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Fat (g)
+            </div>
+            <div class="v-data-table__mobile-row__cell">
+              9
+            </div>
+          </td>
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Carbs (g)
+            </div>
+            <div class="v-data-table__mobile-row__cell">
+              37
+            </div>
+          </td>
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Protein (g)
+            </div>
+            <div class="v-data-table__mobile-row__cell">
+              4.3
+            </div>
+          </td>
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Iron (%)
+            </div>
+            <div class="v-data-table__mobile-row__cell">
+              1%
+            </div>
+          </td>
+        </tr>
+        <tr class="v-data-table__mobile-table-row">
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Dessert (100g serving)
+            </div>
+            <div class="v-data-table__mobile-row__cell">
+              Eclair
+            </div>
+          </td>
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Calories
+            </div>
+            <div class="v-data-table__mobile-row__cell">
+              262
+            </div>
+          </td>
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Fat (g)
+            </div>
+            <div class="v-data-table__mobile-row__cell">
+              16
+            </div>
+          </td>
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Carbs (g)
+            </div>
+            <div class="v-data-table__mobile-row__cell">
+              23
+            </div>
+          </td>
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Protein (g)
+            </div>
+            <div class="v-data-table__mobile-row__cell">
+              6
+            </div>
+          </td>
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Iron (%)
+            </div>
+            <div class="v-data-table__mobile-row__cell">
+              7%
+            </div>
+          </td>
+        </tr>
+        <tr class="v-data-table__mobile-table-row">
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Dessert (100g serving)
+            </div>
+            <div class="v-data-table__mobile-row__cell">
+              Cupcake
+            </div>
+          </td>
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Calories
+            </div>
+            <div class="v-data-table__mobile-row__cell">
+              305
+            </div>
+          </td>
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Fat (g)
+            </div>
+            <div class="v-data-table__mobile-row__cell">
+              3.7
+            </div>
+          </td>
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Carbs (g)
+            </div>
+            <div class="v-data-table__mobile-row__cell">
+              67
+            </div>
+          </td>
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Protein (g)
+            </div>
+            <div class="v-data-table__mobile-row__cell">
+              4.3
+            </div>
+          </td>
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Iron (%)
+            </div>
+            <div class="v-data-table__mobile-row__cell">
+              8%
+            </div>
+          </td>
+        </tr>
+        <tr class="v-data-table__mobile-table-row">
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Dessert (100g serving)
+            </div>
+            <div class="v-data-table__mobile-row__cell">
+              Gingerbread
+            </div>
+          </td>
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Calories
+            </div>
+            <div class="v-data-table__mobile-row__cell">
+              356
+            </div>
+          </td>
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Fat (g)
+            </div>
+            <div class="v-data-table__mobile-row__cell">
+              16
+            </div>
+          </td>
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Carbs (g)
+            </div>
+            <div class="v-data-table__mobile-row__cell">
+              49
+            </div>
+          </td>
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Protein (g)
+            </div>
+            <div class="v-data-table__mobile-row__cell">
+              3.9
+            </div>
+          </td>
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Iron (%)
+            </div>
+            <div class="v-data-table__mobile-row__cell">
+              16%
+            </div>
+          </td>
+        </tr>
+        <tr class="v-data-table__mobile-table-row">
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Dessert (100g serving)
+            </div>
+            <div class="v-data-table__mobile-row__cell">
+              Jelly bean
+            </div>
+          </td>
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Calories
+            </div>
+            <div class="v-data-table__mobile-row__cell">
+              375
+            </div>
+          </td>
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Fat (g)
+            </div>
+            <div class="v-data-table__mobile-row__cell">
+              0
+            </div>
+          </td>
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Carbs (g)
+            </div>
+            <div class="v-data-table__mobile-row__cell">
+              94
+            </div>
+          </td>
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Protein (g)
+            </div>
+            <div class="v-data-table__mobile-row__cell">
+              0
+            </div>
+          </td>
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Iron (%)
+            </div>
+            <div class="v-data-table__mobile-row__cell">
+              0%
+            </div>
+          </td>
+        </tr>
+        <tr class="v-data-table__mobile-table-row">
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Dessert (100g serving)
+            </div>
+            <div class="v-data-table__mobile-row__cell">
+              Lollipop
+            </div>
+          </td>
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Calories
+            </div>
+            <div class="v-data-table__mobile-row__cell">
+              392
+            </div>
+          </td>
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Fat (g)
+            </div>
+            <div class="v-data-table__mobile-row__cell">
+              0.2
+            </div>
+          </td>
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Carbs (g)
+            </div>
+            <div class="v-data-table__mobile-row__cell">
+              98
+            </div>
+          </td>
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Protein (g)
+            </div>
+            <div class="v-data-table__mobile-row__cell">
+              0
+            </div>
+          </td>
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Iron (%)
+            </div>
+            <div class="v-data-table__mobile-row__cell">
+              2%
+            </div>
+          </td>
+        </tr>
+        <tr class="v-data-table__mobile-table-row">
+          <td class="v-data-table__mobile-row">
+            <div class="v-data-table__mobile-row__header">
+              Dessert (100g serving)
+            </div>
+            <div class="v-data-table__mobile-row__cell">
               Honeycomb
             </div>
           </td>
@@ -5474,7 +5824,7 @@ exports[`VDataTable.ts should not search column with filterable set to false and
       </div>
     </div>
     <div class="v-data-footer__pagination">
-      1-3 of 3
+      1-10 of 10
     </div>
     <div class="v-data-footer__icons-before">
       <button type="button"
@@ -11374,18 +11724,18 @@ exports[`VDataTable.ts should respect mustSort property on options 1`] = `
                   <div role="button"
                        aria-haspopup="listbox"
                        aria-expanded="false"
-                       aria-owns="list-731"
+                       aria-owns="list-715"
                        class="v-input__slot"
                   >
                     <div class="v-select__slot">
-                      <label for="input-731"
+                      <label for="input-715"
                              class="v-label theme--light"
                              style="left: 0px; position: absolute;"
                       >
                         Sort by
                       </label>
                       <div class="v-select__selections">
-                        <input id="input-731"
+                        <input id="input-715"
                                readonly="readonly"
                                type="text"
                                aria-readonly="false"
@@ -11524,7 +11874,7 @@ exports[`VDataTable.ts should respect mustSort property on options 1`] = `
           <div role="button"
                aria-haspopup="listbox"
                aria-expanded="false"
-               aria-owns="list-735"
+               aria-owns="list-719"
                class="v-input__slot"
           >
             <div class="v-select__slot">
@@ -11533,7 +11883,7 @@ exports[`VDataTable.ts should respect mustSort property on options 1`] = `
                   10
                 </div>
                 <input aria-label="Rows per page:"
-                       id="input-735"
+                       id="input-719"
                        readonly="readonly"
                        type="text"
                        aria-readonly="false"

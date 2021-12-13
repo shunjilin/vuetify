@@ -957,26 +957,6 @@ describe('VDataTable.ts', () => {
     expect(wrapper.html()).toMatchSnapshot()
   })
 
-  // https://github.com/vuetifyjs/vuetify/issues/11179
-  it('should return rows from columns that exclusively match custom filters', async () => {
-    const wrapper = mountFunction({
-      propsData: {
-        items: testItems,
-        headers: [
-          { text: 'Dessert (100g serving)', align: 'left', value: 'name' },
-          { text: 'Calories', value: 'calories', filter: value => value === 159 },
-          { text: 'Fat (g)', value: 'fat' },
-          { text: 'Carbs (g)', value: 'carbs' },
-          { text: 'Protein (g)', value: 'protein' },
-          { text: 'Iron (%)', value: 'iron' },
-        ],
-      },
-    })
-
-    await wrapper.vm.$nextTick()
-    expect(wrapper.vm.internalCurrentItems).toHaveLength(1)
-  })
-
   // https://github.com/vuetifyjs/vuetify/issues/10244
   it('should respect mustSort property on options', async () => {
     const wrapper = mountFunction({
@@ -1051,7 +1031,7 @@ describe('VDataTable.ts', () => {
     expect(wrapper.vm.internalCurrentItems).toHaveLength(1)
   })
 
-  it('should return results which match both search term and column filters if both specified', async () => {
+  it('should return results which match either search term and column filters if both specified', async () => {
     const wrapper = mountFunction({
       propsData: {
         items: testItems,
@@ -1068,7 +1048,7 @@ describe('VDataTable.ts', () => {
 
     wrapper.setProps({ search: 'EA' })
     await wrapper.vm.$nextTick()
-    expect(wrapper.vm.internalCurrentItems).toHaveLength(1)
+    expect(wrapper.vm.internalCurrentItems).toHaveLength(5)
   })
 
   // https://github.com/vuetifyjs/vuetify/issues/14006
